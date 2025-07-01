@@ -344,7 +344,7 @@ async function start() {
     console.log(`📊 Market Cap: $${formatNumber(tokenData.marketCap)}`);
     
     // Uncomment to send a test alert on startup
-    // await sendTestAlert();
+    await sendTestAlert();
     
     // Start monitoring
     if (HELIUS_API_KEY) {
