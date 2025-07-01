@@ -13,10 +13,7 @@ const HELIUS_API_KEY = process.env.HELIUS_API_KEY;
 
 // Photo URLs for buy alerts - replace these with your actual photo URLs
 const BUY_PHOTOS = [
-    'https://your-image-url-1.jpg',
-    'https://your-image-url-2.jpg',
-    'https://your-image-url-3.jpg',
-    'https://your-image-url-4.jpg',
+    'dudley_photo.jpeg',
 ];
 
 // Everyone gets the crown
