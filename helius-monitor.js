@@ -238,8 +238,9 @@ Buyer: <a href="https://solscan.io/account/${buyer}">${shortBuyer}</a> | TX: <a 
         console.log(`✅ Buy alert sent: ${BUYER_EMOJI} bought ${solAmount.toFixed(3)} SOL worth ($${formatNumber(usdValue)})`);
         
     } catch (error) {
-        console.error('❌ Error sending alert:', error);
-    }
+    console.error('❌ Error sending alert:', error.message);
+    console.error('Full error:', JSON.stringify(error, null, 2));
+}
 }
 
 // Get SOL price
